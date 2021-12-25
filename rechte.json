@@ -1,10 +1,10 @@
 [
- { 
-  name: "floortileset.png",
-  copytxt: "CC0BY blatut"
-},
-{  name: "floortileset.png",
-  copytxt: "CC0BY blatut"
-
-}
+  {
+    "name": "floortileset.png",
+    "copytxt": "CC0BY blatut"
+  },
+  {
+    "name": "chemnitz_al.png",
+    "copytxt": "CC0BY Chaostreff Chemnitz https://chch.it"
+  }
 ]
