@@ -36,17 +36,49 @@
     "copytxt": "CC0"
   },
   {
-    "name": "rc3-mullana-stars.png",
-    "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/rc3-mullana-stars.png"
+    "name": "alpine.png",
+    "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/alpine.png"
+  },
+  {
+    "name": "dk_garden.png",
+    "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/dk_garden.png"
+  },  
+  {
+    "name": "fairydust.png",
+    "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/fairydust.png"
+  },
+  {
+    "name": "garden.png",
+    "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/garden.png"
+  },
+  {
+    "name": "mapUtilities.png",
+    "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/mapUtilities.png"
+  },
+  {
+    "name": "rc3-mullana-colors-128.png",
+    "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/rc3-mullana-colors-128.png"
   },
   {
     "name": "rc3-mullana-floor-wall.png",
     "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/rc3-mullana-floor-wall.png"
   },
   {
-    "name": "structures_rc3-mullana-functionary.png",
+    "name": "rc3-mullana-functionary.png",
     "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/rc3-mullana-functionary.png"
   },
+  {
+    "name": "rc3-mullana-modules.png",
+    "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/rc3-mullana-modules.png"
+  },
+  {
+    "name": "rc3-mullana-overlay.png",
+    "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/rc3-mullana-overlay"
+  },
+  {
+    "name": "rc3-mullana-stars.png",
+    "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/rc3-mullana-stars.png"
+  }, 
   {
     "name": "naturkundemuseum.png",
     "copytxt": "(CC0) by dezentrale https://gitlab.com/dezentrale/workadventure/maps/-/blob/master/tilesets/dezentrale_tiles.png"
