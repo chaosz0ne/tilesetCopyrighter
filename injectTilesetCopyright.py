@@ -27,7 +27,7 @@ def addLiz(ts, lizTxt):
 
 print("Tiled-Editor Copyright-Info nach rc3.world-Vorgaben hinzufügen")
 print("Datei rechte.json passend befüllen, dann Aufruf")
-print(sys.argv[0] + "{$0} <tiledmapdatei.json>")
+print(sys.argv[0] + " <tiledmapdatei.json>")
 print("Die <tiledmapdatei.json> wird modifiziert! Vorher eigene Änderungen committen!")
 print("")
 
@@ -64,8 +64,8 @@ with open("rechte.json", "r") as rechte_file:
             exit(1)
 
 
-    with open("zz" + tiledfile, "w") as map_out_file:
-        json.dump(mapjson, map_out_file, indent=8)
+    with open(tiledfile, "w") as map_out_file:
+        json.dump(mapjson, map_out_file, indent=4)
     print("geschrieben")
 
 
