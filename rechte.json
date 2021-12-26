@@ -28,6 +28,10 @@
     "copytxt": "CC-BY-SA CERT (cert.ccc.de)"
   },
   {
+    "name": "cert_safety",
+    "copytxt": "CC-BY-SA CERT https://github.com/c3CERT/rc3-cert/tree/master/tiles/imgs/cert_safety"
+  },
+  {
     "name": "campfire.png",
     "copytxt": "CC0"
   },
@@ -121,6 +125,10 @@
   },
   {
     "name": "chemnitz_all.png",
+    "copytxt": "CC0BY Chaostreff Chemnitz https://chch.it"
+  },
+  {
+    "name": "chemnitz_sign.png",
     "copytxt": "CC0BY Chaostreff Chemnitz https://chch.it"
   }
   
