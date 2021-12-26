@@ -24,7 +24,7 @@
     "copytxt": "(cc0) 288x32 by cccv.de https://git.cccv.de/rc3/world-tiles/-/blob/master/rc3-2020/structures/mapUtilities.png"
   },
   {
-    "name": "c3gelb.png",
+    "name": "c3gelb",
     "copytxt": "CC-BY-SA CERT (cert.ccc.de)"
   },
   {
@@ -123,4 +123,5 @@
     "name": "chemnitz_all.png",
     "copytxt": "CC0BY Chaostreff Chemnitz https://chch.it"
   }
+  
 ]
