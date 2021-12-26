@@ -33,9 +33,9 @@ print("")
 
 with open("rechte.json", "r") as rechte_file:
     rechte = json.load(rechte_file)
-    print("Folgende Rechte wurden zugeordnet:")
-    for recht in rechte:
-        print(recht["name"] + " zu -> " + recht["copytxt"])
+    print(f"Rechte wurden zugeordnet: {len(rechte)}")
+    #for recht in rechte:
+    #    print(recht["name"] + " zu -> " + recht["copytxt"])
 
     if len(sys.argv) <= 1:
         print("Du hast vergessen die Tiled-Datei (Json) als Arument anzugeben. Ende.")
@@ -44,6 +44,7 @@ with open("rechte.json", "r") as rechte_file:
     tiledfile = sys.argv[1]
     print("Überschreibe jetzt die Datei mit geändertem Inhalt: " + tiledfile)
     mapjson = []
+    imgs_ohne_cr = []
     lizenzen_fehlend = 0
     lizenzen_vorh = 0
     with open(tiledfile, "r") as map_file:
@@ -59,8 +60,9 @@ with open("rechte.json", "r") as rechte_file:
                     addLiz(ts, lizTxt)
                     lizenzen_vorh += 1
                 else:
-                    print("x --> keine Lizenz zu " + image + " gefunden")
+                    print("(x) --> keine Lizenz zu " + image + " gefunden")
                     lizenzen_fehlend += 1
+                    imgs_ohne_cr.append(image)
 
 
         except:
@@ -70,7 +72,11 @@ with open("rechte.json", "r") as rechte_file:
 
     with open(tiledfile, "w") as map_out_file:
         json.dump(mapjson, map_out_file, indent=4)
-    print("geschrieben")
+    print("Fertig. Datei geschrieben\n-----")
+    print("Fehlende Angaben zu folgenden Bildern")
+    for img in imgs_ohne_cr:
+        print(img)
+    print("------")
     print(f"{lizenzen_vorh} / {lizenzen_fehlend + lizenzen_vorh} Tilesets eingetragen.")
     print(f"{lizenzen_fehlend} Lizenzangaben fehlen.")
 
