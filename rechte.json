@@ -28,6 +28,10 @@
     "copytxt": "CC-BY-SA CERT (cert.ccc.de)"
   },
   {
+    "name": "c3_deko.png",
+    "copytxt": "CC-BY-SA CERT (https://github.com/c3CERT/rc3-cert/tree/master/tiles/imgs/c3_deko)"
+  },
+  {
     "name": "cert_safety",
     "copytxt": "CC-BY-SA CERT https://github.com/c3CERT/rc3-cert/tree/master/tiles/imgs/cert_safety"
   },
@@ -84,6 +88,10 @@
     "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/rc3-mullana-stars.png"
   }, 
   {
+    "name": "modern.png",
+    "copytxt": "(CC BY-NC 3.0) License https://www.deviantart.com/painhurt/art/RPG-Maker-VX-ModernRTP-TileA2-206955520"
+  },
+  {
     "name": "naturkundemuseum.png",
     "copytxt": "(CC0) by dezentrale https://gitlab.com/dezentrale/workadventure/maps/-/blob/master/tilesets/dezentrale_tiles.png"
   },
@@ -124,11 +132,11 @@
     "copytxt": "(CC-BY-SA 3.0) 512x512px by 3lv3n https://www.deviantart.com/3lv3n/art/Grass-and-dungeon-floor-tile-map-with-some-snow-700702945"
   },
   {
-    "name": "chemnitz_all.png",
+    "name": "roter-turm.png",
     "copytxt": "CC0BY Chaostreff Chemnitz https://chch.it"
   },
   {
-    "name": "chemnitz_sign.png",
+    "name": "chemnitz_all.png",
     "copytxt": "CC0BY Chaostreff Chemnitz https://chch.it"
   },
   {
@@ -170,6 +178,39 @@
   {
     "name": "Laptop.png",
     "copytxt": "(CC-BY-SA 3.0) by Eliza Wyatt https://opengameart.org/content/lpc-revised-the-office"
+  },
+  {
+    "name": "open_tileset.png",
+    "copytxt": "(CC BY-SA 3.0) silveira neto https://silveiraneto.net/tag/tilset/"
+  },
+  {
+    "name": "Outside_B.png",
+    "copytxt": "(CC BY-SA 3.0) https://opengameart.org/content/lpc-modified-base-tiles"
+  },
+  {
+    "name": "Inside_A2.png",
+    "copytxt": "(CC BY-SA 3.0) https://opengameart.org/content/lpc-modified-base-tiles"
+  },
+  {
+    "name": "Inside_A4.png",
+    "copytxt": "(CC BY-SA 3.0) https://opengameart.org/content/lpc-modified-base-tiles"
+  },
+  {
+    "name": "Inside_B.png",
+    "copytxt": "(CC BY-SA 3.0) https://opengameart.org/content/lpc-modified-base-tiles"
+  },
+  {
+    "name": "interior.png",
+    "copytxt": "(CC BY-SA 3.0) https://opengameart.org/content/lpc-modified-base-tiles"
+  },
+  {
+    "name": "divoc-functional.png",
+    "copytxt": "CC0 https://c0c0bird.codeberg.page/tilesets/divoc-functional.png"
+  },
+  {
+    "name": "campfire.png",
+    "copytxt": "(CC BY-SA 3.0) https://opengameart.org/content/camp-fire-animation-for-rpgs-finished"
   }
   
 ]
+
