@@ -1,15 +1,31 @@
 [
   {
     "name": "fantasy.png",
-    "copytxt": "CC0"
+    "copytxt": "FREE RPG Tileset 32x32 by pipoya https://pipoya.itch.io/pipoya-rpg-tileset-32x32"
   },
   {
     "name": "chaos_zone_shared.png",
-    "copytxt": "CC0BY ChaosZ0ne Ost"
+    "copytxt": "(CC) by ChaosZoneShared https://github.com/chaosz0ne/shared/blob/main/tiles/chaos_zone_shared.png"
+  },
+  {
+    "name": "dezentrale_tiles.png",
+    "copytxt": "(CC0) by dezentrale https://gitlab.com/dezentrale/workadventure/maps/-/blob/master/tilesets/dezentrale_tiles.png"
+  },
+  {
+    "name": "honky_objects.png",
+    "copytxt": "(cc0) 512x512px by ChaosZone Honky https://raw.githubusercontent.com/chaosz0ne/shared/rC3-2021-NOWHERE/assets/tilesets_active/honky_objects.png"
+  },
+  {
+    "name": "lautsprecher.png",
+    "copytxt": "(cc0) by tabascoeye https://data.tabascoeye.de/maptest/rc3world/Lautsprecher1.png"
+  },
+  {
+    "name": "mapUtilities.png",
+    "copytxt": "(cc0) 288x32 by cccv.de https://git.cccv.de/rc3/world-tiles/-/blob/master/rc3-2020/structures/mapUtilities.png"
   },
   {
     "name": "c3gelb.png",
-    "copytxt": "CC0"
+    "copytxt": "CC-BY-SA CERT (cert.ccc.de)"
   },
   {
     "name": "campfire.png",
@@ -20,16 +36,28 @@
     "copytxt": "CC0"
   },
   {
+    "name": "structures_rc3-mullana-functionary.png",
+    "copytxt": "(cc0) https://tiles.rc3.world/rc3-2020/structures/rc3-mullana-functionary.png"
+  },
+  {
+    "name": "naturkundemuseum.png",
+    "copytxt": "(CC0) by dezentrale https://gitlab.com/dezentrale/workadventure/maps/-/blob/master/tilesets/dezentrale_tiles.png"
+  },
+  {
+    "name": "tilesets_nicnubill",
+    "copytxt": "(CC BY 3.0) Tileset 512x512px by nicnubill https://www.deviantart.com/nicnubill/art/Request-April-446589125"
+  },
+  {
     "name": "tilesets_deviant_milkian_1.png",
-    "copytxt": "CC0"
+    "copytxt": "FREE TO USE Tileset 512x512px by milkian https://www.deviantart.com/milkian/art/Tilesets-FSM-RM2K3-para-VX-Ace-Set-Escritorio-651542743"
   },
   {
     "name": "tilesets_deviant_milkian_2.png",
-    "copytxt": "CC0"
+    "copytxt": "FREE TO USE Tileset 512x512px by milkian https://www.deviantart.com/milkian/art/Tilesets-FSM-RM2K3-para-VX-Ace-Set-Hospital-651534818"
   },
   {
     "name": "tilesets_deviant_milkian_3.png",
-    "copytxt": "CC0"
+    "copytxt": "FREE TO USE Tileset 512x512px by milkian https://www.deviantart.com/milkian"
   },
   {
     "name": "bagger.png",
@@ -49,7 +77,7 @@
   },
   {
     "name": "floortileset.png",
-    "copytxt": "CC0BY unbekannt"
+    "copytxt": "(CC-BY-SA 3.0) 512x512px by 3lv3n https://www.deviantart.com/3lv3n/art/Grass-and-dungeon-floor-tile-map-with-some-snow-700702945"
   },
   {
     "name": "chemnitz_all.png",
