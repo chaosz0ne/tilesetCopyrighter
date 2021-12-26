@@ -140,8 +140,37 @@
     "copytxt": "CC0BY Chaostreff Chemnitz https://chch.it"
   },
   {
-    "name": "chemnitz_sign.png",
-    "copytxt": "CC0BY Chaostreff Chemnitz https://chch.it"
+    "name": "open_tileset.png",
+    "copytxt": "(CC BY-SA 3.0) silveira neto https://silveiraneto.net/tag/tilset/"
+  },
+  {
+    "name": "Outside_B.png",
+    "copytxt": "(CC BY-SA 3.0) https://opengameart.org/content/lpc-modified-base-tiles"
+  },
+  {
+    "name": "Inside_A2.png",
+    "copytxt": "(CC BY-SA 3.0) https://opengameart.org/content/lpc-modified-base-tiles"
+  },
+  {
+    "name": "Inside_A4.png",
+    "copytxt": "(CC BY-SA 3.0) https://opengameart.org/content/lpc-modified-base-tiles"
+  },
+  {
+    "name": "Inside_B.png",
+    "copytxt": "(CC BY-SA 3.0) https://opengameart.org/content/lpc-modified-base-tiles"
+  },
+  {
+    "name": "interior.png",
+    "copytxt": "(CC BY-SA 3.0) https://opengameart.org/content/lpc-modified-base-tiles"
+  },
+  {
+    "name": "divoc-functional.png",
+    "copytxt": "CC0 https://c0c0bird.codeberg.page/tilesets/divoc-functional.png"
+  },
+  {
+    "name": "campfire.png",
+    "copytxt": "(CC BY-SA 3.0) https://opengameart.org/content/camp-fire-animation-for-rpgs-finished"
   }
+  
   
 ]
