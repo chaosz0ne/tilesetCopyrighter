@@ -13,3 +13,70 @@ Aufruf:
 python3 injectTilesetCopyright.py meinemap.json
 
 -> danach ist meinemap.json aktualisiert.
+
+
+Beispiel: aus diesem hier:
+```
+        {
+            "columns": 8,
+            "firstgid": 1,
+            "image": "../floortileset.png",
+            "imageheight": 256,
+            "imagewidth": 256,
+            "margin": 0,
+            "name": "floortileset",
+            "spacing": 0,
+            "tilecount": 64,
+            "tileheight": 32,
+            "tiles": [
+                {
+                    "id": 21,
+                    "properties": [
+                        {
+                            "name": "collides",
+                            "type": "bool",
+                            "value": true
+                        }
+                    ]
+                }
+            ],
+            "tilewidth": 32,
+        },
+```
+
+wird 
+
+```
+        {
+            "columns": 8,
+            "firstgid": 1,
+            "image": "../floortileset.png",
+            "imageheight": 256,
+            "imagewidth": 256,
+            "margin": 0,
+            "name": "floortileset",
+            "spacing": 0,
+            "tilecount": 64,
+            "tileheight": 32,
+            "tiles": [
+                {
+                    "id": 21,
+                    "properties": [
+                        {
+                            "name": "collides",
+                            "type": "bool",
+                            "value": true
+                        }
+                    ]
+                }
+            ],
+            "tilewidth": 32,
+            "properties": [
+                {
+                    "name": "tilesetCopyright",
+                    "type": "string",
+                    "value": "CC0BY unbekannt"
+                }
+            ]
+        },
+```
