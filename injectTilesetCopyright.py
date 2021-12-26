@@ -44,6 +44,8 @@ with open("rechte.json", "r") as rechte_file:
     tiledfile = sys.argv[1]
     print("Überschreibe jetzt die Datei mit geändertem Inhalt: " + tiledfile)
     mapjson = []
+    lizenzen_fehlend = 0
+    lizenzen_vorh = 0
     with open(tiledfile, "r") as map_file:
         mapjson = json.load(map_file)
         try:
@@ -53,10 +55,12 @@ with open("rechte.json", "r") as rechte_file:
                 image = ts["image"]
                 lizTxt = img2liz(image, rechte)
                 if lizTxt:
-                    print("--> verwende Lizenz " + lizTxt)
+                    print(" --> verwende Lizenz " + lizTxt)
                     addLiz(ts, lizTxt)
+                    lizenzen_vorh += 1
                 else:
-                    print("--> keine Lizenz zu " + image + " gefunden")
+                    print("x --> keine Lizenz zu " + image + " gefunden")
+                    lizenzen_fehlend += 1
 
 
         except:
@@ -67,5 +71,7 @@ with open("rechte.json", "r") as rechte_file:
     with open(tiledfile, "w") as map_out_file:
         json.dump(mapjson, map_out_file, indent=4)
     print("geschrieben")
+    print(f"{lizenzen_vorh} / {lizenzen_fehlend + lizenzen_vorh} Tilesets eingetragen.")
+    print(f"{lizenzen_fehlend} Lizenzangaben fehlen.")
 
 
